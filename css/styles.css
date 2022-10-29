@@ -1,3 +1,30 @@
 footer {
     background-color: yellowgreen;
 }
+.header-logo {
+    text-decoration: none;
+    font-size: 27px;
+    color: crimson;
+    display: inline-block;
+}
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(168, 191, 18);
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.box {
+
+    width: 900px;
+    padding: 100px;
+    margin: 0 auto;
+    background-color: rgb(239, 227, 14);
+}
+
+.box:not(:last-child) {
+    margin-bottom: 300px;
+}
